@@ -11,4 +11,15 @@ This project compares the performance of various machine learning models on the 
 Featurization of the lyrics is done using the tf-idf, a basic featurization method based on commonality of terms across documents for natural language tasks.
 
 ## Notebook
-The notebook containing the code can be run from top to bottom. 
+The notebook containing the code can be run from top to bottom. The sections are organized as follows:
+- Loading and Cleaning
+  - Remove Stopwords
+  - Obtaining Features
+- Data Exploration
+- Models
+  - Logistic Regression
+  - Random Forest Classifier
+  - AdaBoost Classifier
+  - Naive Bayes Classifier
+
+Packages employed are the 'nltk' package
