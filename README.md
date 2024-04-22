@@ -12,14 +12,14 @@ Featurization of the lyrics is done using the tf-idf, a basic featurization meth
 
 ## Notebook
 The notebook containing the code can be run from top to bottom. The sections are organized as follows:
-- Loading and Cleaning
+- Loading and Cleaning: loads data and performs pre-processing on data
   - Remove Stopwords
   - Obtaining Features
-- Data Exploration
+- Data Exploration: Abbreviated analysis of initial data using WordCloud generation
 - Models
   - Logistic Regression
   - Random Forest Classifier
   - AdaBoost Classifier
   - Naive Bayes Classifier
 
-Packages employed are the 'nltk' package
+Running the models has proven to be challenging on the size of the data. An IDE with high-RAM enabled is recommended to execute the notebook.
